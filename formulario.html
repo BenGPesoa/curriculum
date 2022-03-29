@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <div class="main">
+        <h1>Formulario</h1>
+        <h2>Complete la siguiente información:</h2>
+        <div class="formulario">
+            <form action="" method="post">
+                <p>
+                    <label for="nom" class="campo_form">Nombre</label>
+                    <input type="text" id="nom" name="nombre" class="campo_form">
+                </p>
+                <p>
+                    <label for="ape" class="campo_form">Apellido</label>
+                    <input type="text" id="ape" name="apellido" class="campo_form">
+                </p>
+                <p>
+                    <label for="mail" class="campo_form">Mail</label>
+                    <input type="email" id="mail" name="email" class="campo_form">
+                </p>
+                <label for="gen" class="campo_form">Genero</label>
+                <ul class="lista">
+                    <li>
+                        <input type="radio" name="gen" value="masc">
+                        <label class="campo_form">Masculino</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="gen" value="fem">
+                        <label class="campo_form">Femenino</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="gen" value="otre">
+                        <label class="campo_form">Otres</label>
+                    </li>
+                </ul>
+                <label class="campo_form">Conocimientos</label>
+                <ul class="lista">
+                    <li>
+                        <input type="checkbox" name="conoc" value="html" id="html">
+                        <label for="html" class="campo_form">HTML5</label>
+                    </li>
+                    <li><input type="checkbox" name="conoc" value="css" id="css">
+                        <label for="css" class="campo_form">CSS3</label>
+                    </li>
+                    <li><input type="checkbox" name="conoc" value="php" id="php">
+                        <label for="php" class="campo_form">PHP</label>
+                    </li>
+                    <li><input type="checkbox" name="conoc" value="javas" id="javas">
+                        <label for="javas" class="campo_form">JavaScript</label>
+                    </li>
+                    <li><input type="checkbox" name="conoc" value="git" id="git">
+                        <label for="git" class="campo_form">GIT</label>
+                    </li>
+                </ul>
+                <label for="tit" class="campo_form">Titulo mas alto obtenido</label>
+                <select name="tit" class="campo_form">
+                    <option value="primario">Primario</option>
+                    <option value="secundario">Secundario</option>
+                    <option value="terciario">Terciario</option>
+                    <option value="universitario">Universitario</option>
+                </select>
+                <p>
+                    <label for="comentario" class="campo_form">Comentarios</label><br>
+                    <textarea name="comentario" class="campo_form" cols="30" rows="10" placeholder="Introduzca su comentario"></textarea>
+                </p>
+                <p>
+                    <input type="reset" class="btn_borr" value="Borrar">
+                    <input type="submit" class="btn_env" value="Enviar">    
+                </p>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -65,4 +65,36 @@ p {
 }
 
 
+/* ------------ Formulario ------------  */
+
+
+
+.campo_form {
+    width: 30%;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.lista {
+    list-style-type: none;
+}
+
+.btn_env {
+    width: 30%;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+    background-color: rgb(7, 167, 1);
+}
+
+.btn_borr {
+    width: 30%;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+    background-color: rgb(167, 1, 1);
+}
+
+
 
