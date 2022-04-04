@@ -6,13 +6,14 @@
 
 body {
     width: 100%;
-    background-color: rgb(253, 221, 203);
+    background-color: rgb(1, 1, 4);
     padding: 2rem;
     text-align: center;
 }
 
 h1, h2, h4, p {
     font-family: 'Times New Roman', Times, serif;
+    color: rgb(251, 245, 252);
 }
 
 h1 {
@@ -55,6 +56,7 @@ p {
     list-style-position: inside;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: rgb(251, 245, 252);
 }
 
 .lista2 {
@@ -62,6 +64,7 @@ p {
     list-style-position: inside;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: rgb(251, 245, 252);
 }
 
 
@@ -77,6 +80,7 @@ p {
     font-size: 1.3rem;
     margin-left: auto;
     margin-right: auto;
+    color: rgb(251, 245, 252);
 }
 
 .campo_form2 {
@@ -85,6 +89,19 @@ p {
     margin-right: 2rem;
     margin-left: auto;
     margin-right: auto;
+    color: rgb(251, 245, 252);
+}
+
+.campo_form3 {
+    display: block;
+    width: 30%;
+    padding: 0.2rem;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: rgb(251, 245, 252);
 }
 
 .lista {
@@ -97,6 +114,7 @@ p {
 .lista li {
     display: inline-block;
     width: 10%;
+    color: rgb(251, 245, 252);
 }
 
 .botones {
