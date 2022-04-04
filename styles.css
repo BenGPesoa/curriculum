@@ -78,6 +78,8 @@ p {
 
 .lista {
     list-style-type: none;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .btn_env {
