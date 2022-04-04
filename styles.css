@@ -70,16 +70,28 @@ p {
 
 
 .campo_form {
+    display: block;
     width: 30%;
     padding: 0.2rem;
     margin: 0.5rem;
     font-size: 1.3rem;
 }
 
+.campo_form2 {
+    display: block;
+    width: 40%;
+    margin-right: 2rem;
+}
+
 .lista {
+    display: block;
     list-style-type: none;
     padding: 1rem;
     margin-bottom: 1rem;
+}
+
+.lista li {
+    display: inline-block;
 }
 
 .btn_env {
